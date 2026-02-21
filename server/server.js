@@ -23,6 +23,9 @@ app.use(express.json());
 
 app.use("/api/notes", noteRoutes);
 app.use("/api/users", userRoutes);
+app.get("/", (req, res) => {
+  res.send("Devlog API is running 🚀");
+});
 
 const PORT = process.env.PORT || 5000;
 
