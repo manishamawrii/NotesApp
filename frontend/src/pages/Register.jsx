@@ -12,7 +12,7 @@ const handleSubmit=async(e)=>{
 
   try {
 
-     await axios.post( "http://localhost:5000/api/users/register",{email,password,name})
+     await axios.post( "https://devlog-backend-bb6s.onrender.com/api/users/register",{email,password,name})
 alert("registeration successfull");
 
 navigate("/");
