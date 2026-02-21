@@ -79,7 +79,7 @@ const [editingNote, setEditingNote] = useState(null);
             onClick={() => setDarkMode(!darkMode)}
             className="px-4 py-2 rounded-lg bg-black text-white"
           >
-            {darkMode ? "Light Mode ☀" : "Dark Mode 🌙"}
+            {darkMode ? "Dark Mode 🌙": "Light Mode ☀"}
           </button>
         </div>
 
