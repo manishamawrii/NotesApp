@@ -12,7 +12,7 @@ const app = express();
 
 // ✅ Proper CORS
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://notesapp-4qvj.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
