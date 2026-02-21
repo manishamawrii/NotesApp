@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/notes";
+const API = "https://devlog-backend-bb6s.onrender.com/api/notes";
 
 export const getNotes = async (token) => {
   return await axios.get(API, {
